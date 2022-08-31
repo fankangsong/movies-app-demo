@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const api_key = 'd0999111ac9f30f3a6097db2ff898041';
+const api_key = '';
 const host = 'https://api.themoviedb.org/3';
 
 export interface MovieItem {
