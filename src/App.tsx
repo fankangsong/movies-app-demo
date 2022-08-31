@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 import { fetchList, MovieItem } from './services'
+import WalletButton from './MateMask'
 
 type Status = 'loading' | 'done' | 'error' | 'none';
 
@@ -25,6 +26,7 @@ function App() {
 
   return (
     <div className="App">
+      <WalletButton />
       <header className="App-header">
         <h1>Movies Now Playing</h1>
       </header>

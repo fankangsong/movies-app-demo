@@ -95,3 +95,20 @@ h1 {
 .detail-page .desc p {
   margin-bottom: 10px;
 }
+
+.metamask-button {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  padding: 12px;
+  line-height: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  color: 000;
+  font-size: 28px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.metamask-button:hover {
+  background-color: rgb(244, 241, 201);
+}
